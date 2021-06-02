@@ -1,0 +1,67 @@
+
+
+body {
+    background-image: url("trainstation.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.p-container {
+    display: flex;
+    border-radius: 8px;
+    background-color: #e5e3ea;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.p-container p {
+    padding: 20px;
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
